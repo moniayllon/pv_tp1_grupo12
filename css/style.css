@@ -94,3 +94,45 @@ footer{
 .novedades{
   border: 2px solid rgb(171, 5, 204);
 }
+
+
+.fecha{
+  border-radius: 20%;
+  color:#ffffff;
+  margin-top: -10px;
+  margin-left: 3%;
+  text-align:center;
+  width:125px;
+  background-color: #a9a9aa;
+  color: black;
+  background: -webkit-linear-gradient(top,#2e518b,#eee)
+}
+.nombre{
+  color: #fff;
+  font-size: 12px;
+  float: right;
+  margin-top: -18px
+}
+h2{
+  text-align: center;
+}
+.dato th{
+  border: 5px solid rgb(14, 14, 247);
+  background: rgb(201, 145, 253);
+}
+.table2{
+  margin: 0 30%;
+  border: 3px solid rgb(14, 14, 247);
+  margin-top: -22px;
+}
+#nombre{
+  width:38rem;
+}
+#rol{
+  width:38rem;
+}
+tr td{
+  height: 24px;
+  background: #d2fbff;
+  padding-left: 4px;
+}
