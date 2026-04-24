@@ -1,6 +1,7 @@
 :root{
     --color-primario: #2e518b;
-    --color-secundario: #5b78a7;
+    --color-secundario: #bfd3f3;
+    --color-terciario: #5b78a7;
     --color-fondo: #faecec;
     --color-menu: #000000;
 }
@@ -59,10 +60,10 @@ ul li{
     padding:0;
 } 
 #menu ul li:hover {
-    background-color:var(--color-secundario);
+    background-color:var(--color-terciario);
 }
 footer{
-    background-color: black;
+    background-color: var(--color-menu);
     padding: 10px;
     margin-top: 42px;
 }
@@ -162,7 +163,7 @@ tr td{
 }
 .card {
   width: 300px;
-  background-color: #bfd3f3;;
+  background-color: var(--color-secundario);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
@@ -195,7 +196,7 @@ tr td{
 }
 
 .card a:hover {
-  background-color: var(--color-secundario);
+  background-color: var(--color-terciario);
 }
 
 
