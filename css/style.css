@@ -194,7 +194,6 @@ tr td{
   margin: 10px;
   border-radius: 5px;
 }
-
 .card a:hover {
   background-color: var(--color-terciario);
 }
