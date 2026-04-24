@@ -1,3 +1,10 @@
+:root{
+    --color-primario: #2e518b;
+    --color-secundario: #5b78a7;
+    --color-fondo: #faecec;
+    --color-menu: #000000;
+}
+
 body{
     font: 15px Arial, Helvetica,sans-serif;
     padding: 0;
@@ -31,7 +38,7 @@ ul li{
     padding: 0px 20px;
 }  
 #menu ul li {
-    background-color:#2e518b;
+    background-color:var(--color-primario);
     
 }  
 #menu ul a {
@@ -52,7 +59,7 @@ ul li{
     padding:0;
 } 
 #menu ul li:hover {
-    background:#5b78a7;
+    background-color:var(--color-secundario);
 }
 footer{
     background-color: black;
@@ -179,7 +186,7 @@ tr td{
 .card a {
   display: block;
   text-align: center;
-  background-color: black ;
+  background-color: var(--color-menu);
   color: rgb(255, 255, 255);
   text-decoration: none;
   padding: 10px;
@@ -188,7 +195,7 @@ tr td{
 }
 
 .card a:hover {
-  background-color: rgb(51, 51, 83);
+  background-color: var(--color-secundario);
 }
 
 
