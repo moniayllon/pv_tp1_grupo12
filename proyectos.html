@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1>
-            <center>Programacion Visual bienvenida al usuario</center>
+            Programacion Visual bienvenida al usuario
         </h1>
         <nav id="menu">
             <ul>
@@ -21,73 +21,81 @@
             </ul>
         </nav>
     </header>
-        <aside>
-            <h2>Friltros</h2>
-            <form >
-            <label for="Categoria">categoria</label>
-            <select name="Categoria" id="Categoria">
-                <option value="todos">Todos los proyectos</option>
-                <option value="en-curso">Proyectos en curso</option>
-                <option value="completados">Proyectos completados</option>
-            </select>
-            <label for="año">año</label>
-            <select name="año" id="año">
-                <option value="todos">Todos los años</option>
-                <option value="2023">2023</option>
-                <option value="2024">2024</option>
-                <option value="2025">2025</option>
-            </select>
-            <label for="estado">estado</label>
-            <select name="estado" id="estado">
-                <option value="en-curso">En curso</option>
-                <option value="completados">Finalizados</option>
-            </select>
-            <br>
-            <button type="submit">Filtrar</button>
-            </form>
-        </aside>
-    <main>
-        <section>
-            <article>
-                <h2>Proyecto HTML/CSS</h2>
-                <img src="assets/img/prog.jpg" alt="imagen del proyecto 1" width="200">
-                <p>En este proyecto se desarrollaron las habilidades en HTML y CSS para crear una interfaz de usuario atractiva y funcional.</p>
-                <p> categoria: En proceso</p>
+<aside>
+  <h2>Filtros</h2>
+
+  <form class="filtros">
+
+    <label for="categoria">Categoría</label>
+    <select id="categoria" name="categoria">
+      <option value="todos">Todos</option>
+      <option value="en-curso">En curso</option>
+      <option value="completados">Completados</option>
+    </select>
+
+    <label for="anio">Año</label>
+    <select id="anio" name="anio">
+      <option value="todos">Todos</option>
+      <option value="2023">2023</option>
+      <option value="2024">2024</option>
+      <option value="2025">2025</option>
+    </select>
+
+    <label for="estado">Estado</label>
+    <select id="estado" name="estado">
+      <option value="todos">Todos</option>
+      <option value="en-curso">En curso</option>
+      <option value="finalizado">Finalizado</option>
+    </select>
+
+    <button type="submit">Filtrar</button>
+<br>
+<br>
+  </form>
+</aside>
+
+<main>  
+ <section class="lista">
+            <article class="card">
+                <h2>Proyecto HTML</h2>
+                <img src="assets/img/prog.jpg" alt="Proyecto HTML">
+                <p>En este proyecto se desarrollaron las habilidades en HTML para crear una estructura semántica y accesible.</p>
+                <p> categoria: Finalizado</p>
                 <a href="detalle.html" >Ver más detalles</a>
             </article>
-                        <article>
+            <article class="card">
                 <h2>Proyecto JavaScript</h2>
-                <img src="assets/img/prog.jpg" alt="imagen del proyecto 1" width="200">
-                <p>En este proyecto se desarrollaron las habilidades en JavaScript para crear una experiencia de usuario interactiva y dinámica.</p>
+                <img src="assets/img/prog.jpg" alt="Proyecto JavaScript">         
+                <p>En este proyecto se desarrollaron las habilidades en JavaScript para crear una experiencia de usuario interactiva.</p>
                 <p> categoria: en curso</p>
                 <a href="detalle.html" >Ver más detalles</a>
             </article>
-                        <article>
-                <h2>Proyecto Python</h2>
-                <img src="assets/img/prog.jpg" alt="imagen del proyecto 1" width="200">
-                <p>En este proyecto se desarrollaron las habilidades en Python para crear una aplicación de análisis de datos y visualización.</p></p>   
+            <article class="card">
+                <h2>Proyecto css</h2>
+                <img src="assets/img/prog.jpg" alt="Proyecto CSS">
+                <p>En este proyecto se desarrollaron las habilidades en css para crear una interfaz de usuario atractiva y funcional.</p>   
                 <p> categoria: en curso</p>
                 <a href="detalle.html" >Ver más detalles</a>
             </article>
-                        <article>
+            <article class="card">
                 <h2>Proyecto React</h2>
-                <img src="assets/img/prog.jpg" alt="imagen del proyecto 1" width="200">
+                <img src="assets/img/prog.jpg" alt="Proyecto React">
                 <p>En este proyecto se desarrollaron las habilidades en React para crear una interfaz de usuario moderna y responsiva.</p>
                 <p> categoria: en curso</p>
                 <a href="detalle.html">Ver más detalles</a>
             </article>
-                        <article>
+            <article class="card">
                 <h2>Proyecto Django</h2>
-                <img src="assets/img/prog.jpg" alt="imagen del proyecto 1" width="200">
+                <img src="assets/img/prog.jpg" alt="Proyecto Django">
                 <p>En este proyecto se desarrollaron las habilidades en Django para crear una aplicación web completa con funcionalidades avanzadas.</p>
                 <p> categoria: finalizado</p>
                 <a href="detalle.html" >Ver más detalles</a>
             </article>
         </section>
     </main>
-<footer class="footer">
+    <footer class="footer">
         <div class="footer-container">
-            <p>&copy: 2026 Proyectos pv</p>
+        <p>&copy; 2026 Proyectos PV. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
